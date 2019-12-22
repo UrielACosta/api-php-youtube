@@ -66,6 +66,6 @@ https://www.php.net/manual/pt_BR/install.unix.debian.php
 - http://localhost:8080/?term=tseutermo
 - Buscará o termo seu termo com um limite de 10 resultados.
 
-### Observações
+# Observações
 
 - A api do Youtube v3 tem um limite diario de cosultas.

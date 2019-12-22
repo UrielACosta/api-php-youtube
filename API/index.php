@@ -13,9 +13,12 @@ if (isset($_GET)){
 
     $term = $_GET['term'];
 
-    if (isset($_GET['limit'])){
-
-      $limit = $_GET['limit'];      
+    if (isset($_GET['limit'])){  
+      if (is_int($_GET['limit'])){
+           $limit = $_GET['limit'];   
+      }else{
+        $limit = 10;
+      }
   
     }else{
       $limit = 10;

@@ -7,15 +7,46 @@ Folder de instruções para utilização da api
 
 ## Instalação
 
-Para utilizar a API, basta seguir os seguintes passos no folder /api do projeto:
+### Para utilizar a API localmente, basta seguir os seguintes passos da documentação do php:
 
-### Virtualenv
-É interessante criar um ambiente virutal para utilização da aplicação, isso permite um controle maior das bibliotecas utilizadas: 
-```
-pip install virtualenv
-virtualenv --python python3.5 env
-```
-Vale lembrar que é necessário instalar a versão 3.5 do python para que o passo acima funcione.
+### Para Windows
+
+- Acesse http://php.net/downloads.php e faça o download do PHP para o Windows.
+- Você pode fazer o download da versão que quiser desde que seja maior que a 7 (dê preferência para Thread Safety).
+- Sugiro fazer o download da versão 7.3 ou superior.
+- Após o download, descompacte o arquivo .zip na partição principal do seu computador (normalmente C:) e renomeie a pasta para simplesmente php
+- Faça a instalação do Microsoft Visual C++ (o PHP precisa dele para ser executado na máquina)
+
+https://www.php.net/manual/pt_BR/install.windows.php
+
+### Para Linux
+
+### Pré-requisitos
+
+- Uma instância atualizada do servidor Ubuntu 18.04.
+- Um usuário sudo
+
+### Atualize o Ubuntu
+
+- sudo apt-get update -y
+- sudo apt-get upgrade -y
+
+### Instalar o PHP 7.2
+
+- apt-cache pkgnames | grep php7.2
+- sudo apt-get install php -y
+- sudo apt-get install php-{bcmath,bz2,intl,gd,mbstring,mysql,zip,fpm} -y
+
+### Confirme a versão do PHP:
+
+- php -v
+
+### Documentação oficial do php:
+
+Não recomendo ultilizar a documentanção oficial do php, está muito atrasada.
+https://www.php.net/manual/pt_BR/install.unix.debian.php
+
+
 
 ### Ativar e configurar ambiente
 Para configurar o ambiente utilize:

@@ -26,28 +26,19 @@ https://www.php.net/manual/pt_BR/install.windows.php
 
 ### Para Linux
 
-### Pré-requisitos
-
+- Pré-requisitos
 - Uma instância atualizada do servidor Ubuntu 18.04.
 - Um usuário sudo
-
-### Atualize o Ubuntu
-
+- Atualize o Ubuntu
 - sudo apt-get update -y
 - sudo apt-get upgrade -y
-
-### Instalar o PHP 7.2
-
+- Instalar o PHP 7.2
 - apt-cache pkgnames | grep php7.2
 - sudo apt-get install php -y
 - sudo apt-get install php-{bcmath,bz2,intl,gd,mbstring,mysql,zip,fpm} -y
-
-### Confirme a versão do PHP:
-
+- Confirme a versão do PHP:
 - php -v
-
-### Documentação oficial do php:
-
+- Documentação oficial do php:
 - Não recomendo ultilizar a documentanção oficial do php, está muito atrasada.
 https://www.php.net/manual/pt_BR/install.unix.debian.php
 

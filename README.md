@@ -1,10 +1,6 @@
 # api-php-youtube
 API php youtube search by term
 
-# Doações API
-
-Folder de instruções para utilização da api
-
 ## Instalação
 
 ### Para utilizar a API localmente, basta seguir os seguintes passos da documentação do php:
@@ -16,6 +12,14 @@ Folder de instruções para utilização da api
 - Sugiro fazer o download da versão 7.3 ou superior.
 - Após o download, descompacte o arquivo .zip na partição principal do seu computador (normalmente C:) e renomeie a pasta para simplesmente php
 - Faça a instalação do Microsoft Visual C++ (o PHP precisa dele para ser executado na máquina)
+- Para o PHP funcionar corretamente, precisamos ativar suas configurações padrões.
+- Dentro da pasta descompactada no C:, temos vários arquivos, o executável do PHP (php.exe) e dois arquivos de configurações: php.ini-development e php.ini-production.
+- renomeie o arquivo php.ini-development para somente php.ini.
+- O executável do PHP sempre carregará as configurações do arquivo php.ini.
+- Temos que configurar o PHP para funcionar em qualquer momento no terminal.
+- Abra o Painel de Controle, vá em Sistema, selecione a guia Avançado, depois clique em Variáveis de ambiente no rodapé da janela. Na seção Variáveis do sistema, selecione Path, agora clique em Editar, em Valor da variável, vá até o final do campo de texto, agora iremos colocar o caminho onde o nosso PHP está, acrescente antes um ; (ponto e vírgula) para finalizar os caminhos anteriores e coloque c:\php, então, ficará assim: ….;c:\php. Confirme tudo e o PHP está configurado.
+- Agora temos que configurar o arquivo de hosts para apontar o nome localhost para 127.0.0.1.
+- Abra o menu iniciar e selecione seu editor de texto com o botão direito do mouse e clique em Executar como administrador. No menu Abrir e siga o caminho C:\Windows\System32\drivers\etc. Abra o arquivo hosts, se ele não aparecer, selecione Todos os arquivos para ele ser mostrado na janela.
 
 https://www.php.net/manual/pt_BR/install.windows.php
 

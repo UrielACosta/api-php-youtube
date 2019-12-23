@@ -55,16 +55,16 @@ https://www.php.net/manual/en_US/install.unix.debian.php
 
 - Api has a parameter to limit the results, if this parameter is not informed or is different from an integer it will return 10 results.
 - http: // localhost: 8080 /? term = seutermo & limit = 3
-- Will search the term your term with a limit of 3 results.
+- Will search your term with a limit of 3 results.
 
 - http: // localhost: 8080 /? term = seutermo & limit = any
-- Will search the term your term with a limit of 10 results.
+- Search your term with a limit of 10 results.
 
 - http: // localhost: 8080 /? term = seutermo & limit =
-- Will search the term your term with a limit of 10 results.
+- Search your term with a limit of 10 results.
 
 - http: // localhost: 8080 /? term = tseutermo
-- Will search the term your term with a limit of 10 results.
+- Search your term with a limit of 10 results.
 
 # Comments
 
